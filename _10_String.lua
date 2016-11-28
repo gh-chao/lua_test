@@ -24,3 +24,25 @@ if _ost == nil then
 else 
     print(_ost .. _end)
 end
+
+-- 
+print(string.reverse( "hello" ))
+
+print(string.format("the value is:%d",4))
+
+
+
+-- string.char(arg) 和 string.byte(arg[,int])
+-- char 将整型数字转成字符并连接， byte 转换字符为整数值(可以指定某个字符，默认第一个字符)。
+
+print(string.char(97,98,99,100))
+print(string.byte("ABCD",4))
+
+-- string.len(arg)
+-- 计算字符串长度。
+
+print(string.len("abc"))
+
+print(#"abc")
+
+print(string.rep("a", 10))
